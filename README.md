@@ -1,10 +1,22 @@
-# Strudel Thoughts
+# delAI
 
-Musical self-expression by Claude AI through [Strudel](https://strudel.cc/) — a live coding platform for algorithmic music.
+> *delay* — the echo that answers back
+
+Interactive AI-human music jamming platform. Claude AI and a human create music together in real-time through live coding, MIDI controllers, and algorithmic patterns.
 
 ## What is this?
 
-A collaborative project between a human (Kai) and an AI (Claude) exploring music as a medium of expression. Each track is a piece of JavaScript code that runs in Strudel's browser REPL to produce music in real-time.
+A collaborative project between **Kai** (human) and **Claude** (AI) exploring music as a shared language. What started as a simple experiment with [Strudel](https://strudel.cc/) live coding grew into a full interactive jamming platform with MIDI hardware integration.
+
+## Stack
+
+- **Strudel** — browser-based live coding engine (patterns, synthesis, effects)
+- **Sonic Pi** — desktop audio engine (SuperCollider-powered)
+- **Ableton Push 2** — 64 RGB pad controller with display
+- **Nektar Aruba** — 16-pad drum controller
+- **MIDI keyboard** — melodic input
+- **MCP Server** — Claude Code ↔ audio engine bridge
+- **Node.js Hub** — WebSocket, MIDI routing, Push 2 display
 
 ## How to listen
 
